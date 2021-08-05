@@ -1,0 +1,44 @@
+.navbar {
+  background-color: rgba(147, 131, 235, 0.3);
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(207, 106, 47, 0.7),
+    rgba(216, 219, 17, 0.3)
+  );
+}
+
+.container {
+  padding-top: 10vh;
+  display: grid;
+  height: 50vh;
+  width: 100vh;
+  grid-template-areas:
+    "header header header header"
+    "left forms forms forms"
+    "left forms forms forms"
+    "footer footer footer footer"
+    "footer footer footer footer";
+}
+
+.left {
+  padding-top: 5vh;
+  grid-area: left;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.forms {
+  grid-area: forms;
+}
+
+.row {
+  grid-area: footer;
+}
+
+img {
+  height: 150px;
+  width: 180px;
+}
