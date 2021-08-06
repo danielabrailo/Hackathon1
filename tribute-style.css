@@ -3,11 +3,11 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to right,
-    rgb(207, 106, 47, 0.7),
-    rgba(216, 219, 17, 0.3)
-  );
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -34,8 +34,10 @@ body {
   grid-area: forms;
 }
 
-.row {
+.tribute {
   grid-area: footer;
+  padding-top: 5vh;
+  text-align: center;
 }
 
 img {

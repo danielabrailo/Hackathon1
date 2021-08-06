@@ -7,6 +7,8 @@
     <title>Tribute</title>
 </head>
 <body>
+
+  <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light";">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -38,7 +40,7 @@
       <!-- Input form to fill information about the cat -->
       <div class="container"> 
         <div class="left"><p>Time spent with cats is never wasted - Sigmund Freud</p> <br>
-            <img src="./img/05.jpg" alt="Cat picture" height="150px" width="180px">
+            <img id="image" src="./img/05.jpg" alt="Cat picture" height="150px" width="180px">
         </div>
         <div class="forms">
           <div class="mb-3">
@@ -50,54 +52,17 @@
                 <input type="text" class="form-control" id="catName" placeholder="Tell us your cat's name!">
               </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label" id="text" >Text</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Give us information about your cat, what do you love so much about them!" rows="3"></textarea>
+              <label for="exampleFormControlTextarea1" class="form-label">Text</label>
+              <textarea class="form-control" id="text" placeholder="Give us information about your cat, what do you love so much about them!" rows="3"></textarea>
             </div>
             <div class="col-auto">
               <button type="submit" class="btn btn-primary mb-3" id="submitBtn" >Submit</button>
             </div>
           </div>        
 
-        <!-- Cats cards -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="./img/05.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <!-- ************ -->
-            <div class="col">
-              <div class="card">
-                <img src="./img/05.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/05.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/05.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!-- Cats card -->
+       <div class="tribute">   
+       </div>
 
         </div>
 
