@@ -1,3 +1,4 @@
+// Changing the background image
 let backImg = document.getElementById("backImg");
 let imgBtn = document.getElementById("imgBtn");
 
@@ -17,6 +18,7 @@ function changeBackground() {
     backImg.style = backImages[Math.floor(Math.random()*backImages.length)];    
 }
 
+// Changing the style of the button
 
 function changeColor() {
     imgBtn.style.backgroundColor = "red";
@@ -28,3 +30,4 @@ function changeBack() {
 
 setInterval(changeColor,1000);
 setInterval(changeBack,2000);
+
