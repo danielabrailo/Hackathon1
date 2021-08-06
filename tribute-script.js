@@ -8,6 +8,7 @@ let tribute = document.getElementsByClassName("tribute");
 let catImage = document.getElementById("image");
 
 
+
 submitBtn.addEventListener("click", addTribute);
 
 function addTribute(e) {
@@ -53,3 +54,4 @@ image.addEventListener("mouseover", function() {
 image.addEventListener("mouseout", function() {
     image.src = "./img/05.jpg";
 })
+

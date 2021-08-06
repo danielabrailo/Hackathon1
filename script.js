@@ -16,3 +16,15 @@ imgBtn.addEventListener("click", changeBackground);
 function changeBackground() {
     backImg.style = backImages[Math.floor(Math.random()*backImages.length)];    
 }
+
+
+function changeColor() {
+    imgBtn.style.backgroundColor = "red";
+}
+
+function changeBack() {
+    imgBtn.style.backgroundColor = "grey";
+}
+
+setInterval(changeColor,1000);
+setInterval(changeBack,2000);
