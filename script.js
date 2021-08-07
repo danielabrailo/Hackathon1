@@ -18,7 +18,7 @@ function changeBackground() {
     backImg.style = backImages[Math.floor(Math.random()*backImages.length)];    
 }
 
-// Changing the style of the button
+// Changing the style of the button to change the background
 
 function changeColor() {
     imgBtn.style.backgroundColor = "red";
@@ -31,3 +31,15 @@ function changeBack() {
 setInterval(changeColor,1000);
 setInterval(changeBack,2000);
 
+
+// Subscription box
+$(document).ready(function(){
+    $('.start-btn').click(function(){
+      $('.modal-box').toggleClass("show-modal");
+      $('.start-btn').toggleClass("show-modal");
+    });
+    $('.fa-times').click(function(){
+      $('.modal-box').toggleClass("show-modal");
+      $('.start-btn').toggleClass("show-modal");
+    });
+  });
