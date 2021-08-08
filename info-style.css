@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  background-color: rgb(245, 179, 191);
+  background-color: rgba(227, 116, 231, 0.3);
 }
 
 body {
@@ -61,8 +61,8 @@ h1 {
 }
 
 .card:hover {
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
-  transform: rotate(-7deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
